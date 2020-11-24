@@ -6,11 +6,11 @@ public class Vehicules {
    private String typeVehicules;
    private String immatVehicules;
    private String geolocalisation;
-   private Double prixMinute;
-   private int niveauCarburant;
+   private String prixMinute;
+   private String niveauCarburant;
    private String disponibilite;
 
-public Vehicules (String modeles, String marques, String typeVehicules, String immatVehicules,String geolocalisation, Double prixMinute,int niveauCarburant,String disponibilite ){
+public Vehicules (String modeles, String marques, String typeVehicules, String immatVehicules,String geolocalisation, String prixMinute,String niveauCarburant,String disponibilite ){
 
     this.modeles = modeles;
     this.marques = marques;
@@ -62,19 +62,19 @@ public void setGeolocalisation(String geolocalisation) {
 	this.geolocalisation = geolocalisation;
 }
 
-public Double getPrixMinute() {
+public String getPrixMinute() {
 	return prixMinute;
 }
 
-public void setPrixMinute(Double prixMinute) {
+public void setPrixMinute(String prixMinute) {
 	this.prixMinute = prixMinute;
 }
 
-public int getNiveauCarburant() {
+public String getNiveauCarburant() {
 	return niveauCarburant;
 }
 
-public void setNiveauCarburant(int niveauCarburant) {
+public void setNiveauCarburant(String niveauCarburant) {
 	this.niveauCarburant = niveauCarburant;
 }
 
