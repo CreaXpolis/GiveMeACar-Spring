@@ -22,10 +22,14 @@ public class HelloController {
     public ModelAndView stock() {
         ModelAndView yo = new ModelAndView();
         yo.setViewName("stock");
-        yo.addObject("stock", new Stock());
         return yo;
     }
 
-
+    @GetMapping("/stock2")
+    public ModelAndView tableauVehicules(){
+        ModelAndView stock = new ModelAndView();
+        stock.addObject("stock", stockG);
+        return stock;
+    }
 }
 

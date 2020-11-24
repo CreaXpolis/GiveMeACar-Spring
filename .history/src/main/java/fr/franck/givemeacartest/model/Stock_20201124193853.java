@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Stock {
 
-   public Vehicules[] arrayVehicules;
+    Vehicules[] arrayVehicules;
 
     public Stock() {
 
@@ -42,12 +42,14 @@ public class Stock {
         Vehicules vehicule15 = new Vehicules("Voiture", "marques", "Voiture", "KKKK SDQSKDK 44", "-66.8 90.1", 0.33, 10,
                 "disponibilite");
     
-                this.arrayVehicules = new Vehicules[14];
-                this.arrayVehicules[0]= vehicule11;
 
  
+        listeDeVehicule.add(vehicule15);
+        listeDeVehicule.add(vehicule11);
 
-    // listeDeVehicule.toArray();
+        this.arrayVehicules = new Vehicules[2];
+
+     listeDeVehicule.toArray();
  
 
 }

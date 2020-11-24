@@ -4,12 +4,11 @@ import java.util.ArrayList;
 
 public class Stock {
 
-   public Vehicules[] arrayVehicules;
+    private ArrayList<Vehicules> listeDeVehicule;
 
     public Stock() {
 
         // Création de nouveau véhicules fictifs
-        ArrayList<Vehicules> listeDeVehicule = new ArrayList<Vehicules>();
 
         Vehicules vehicule1 = new Vehicules("1008", "Peugeot", "Voiture", "HJYT 678 44", "18.3 -96.9", 0.5, 50,
                 "disponibilite");
@@ -42,12 +41,11 @@ public class Stock {
         Vehicules vehicule15 = new Vehicules("Voiture", "marques", "Voiture", "KKKK SDQSKDK 44", "-66.8 90.1", 0.33, 10,
                 "disponibilite");
     
-                this.arrayVehicules = new Vehicules[14];
-                this.arrayVehicules[0]= vehicule11;
 
  
+        this.listeDeVehicule.add(vehicule15);
+        this.listeDeVehicule.add(vehicule11);
 
-    // listeDeVehicule.toArray();
  
 
 }
