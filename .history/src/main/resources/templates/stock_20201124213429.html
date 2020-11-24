@@ -12,16 +12,14 @@
     <body>
 
         <ol th:each="voiture: ${stock.arrayVehicules}">
-            <li th:text="${voiture.getMarques()}"></li>
-            <ul>
-            <li th:text="${voiture.getModeles()}"></li>
-               <li th:text="${voiture.getTypeVehicules()}"></li>
-            <li th:text="${voiture.getImmatVehicules}"></li>
-            <ul>
+            <li th:text="${stock.arrayVehicules[0].getModeles()}"></li>
+            <li th:text="${stock.arrayVehicules[0].getMarques()}"></li>
 
         </ol>
 
-
+        <tr th:each="Vehicule2: ${stock.arrayVehicules}">
+      <p>Mdr</p>
+        </tr>
  
     </body>
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html >
+
+
+
+<html    lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Stock de véhicule</title>
+
+    </head>
+    <body>
+
+        <ol th:each="Vehicule2: ${stock.arrayVehicules}">
+            <li th:text="${stock.arrayVehicules[0].getModeles()}"></li>
+            <li th:text="${stock.arrayVehicules[0].getMarques()}"></li>
+
+        </ol>
+
+        <tr th:each="Vehicule2: ${stock.arrayVehicules}">
+      <p>Mdr</p>
+        </tr>
+ 
+    </body>
+</html>

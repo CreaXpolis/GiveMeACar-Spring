@@ -63,13 +63,7 @@ public class Stock {
 
  
 
-    Object[] array = listeDeVehicule.toArray();
-    this.arrayVehicules = new Vehicules[array.length];
-
-    for(int i=0 ; i<array.length ; i++){
-            arrayVehicules[i]= (Vehicules) array[i];
-    }
-
+    this.arrayVehicules = (Vehicules[]) listeDeVehicule.toArray();
  
 
 }

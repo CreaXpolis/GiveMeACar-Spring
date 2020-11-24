@@ -11,14 +11,16 @@
     </head>
     <body>
 
-        <ol th:each="voiture: ${stock.arrayVehicules}">
+        <ol>
+         <th:block th:each="voiture: ${stock.arrayVehicules}">
             <li th:text="${voiture.getMarques()}"></li>
             <ul>
             <li th:text="${voiture.getModeles()}"></li>
                <li th:text="${voiture.getTypeVehicules()}"></li>
             <li th:text="${voiture.getImmatVehicules}"></li>
             <ul>
-
+            </th:block>
+ 
         </ol>
 
 
