@@ -11,10 +11,6 @@
     </head>
     <body>
 <table>
-    <th>Marque</th>
-    <th>Modèle</th>
-    <th>Type de véhicule</th>
-    <th>Immatriculation</th>
         <tr th:each="voiture: ${stock.arrayVehicules}">
             <td th:text="${voiture.getMarques()}"></td>
             
