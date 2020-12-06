@@ -1,16 +1,13 @@
 <!DOCTYPE html >
-
-
-
-<html    lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="utf-8">
 
         <title>Stock de véhicule</title>
-
     </head>
     <body>
 <table>
+    
     <th>Marque</th>
     <th>Modèle</th>
     <th>Type de véhicule</th>
@@ -21,11 +18,9 @@
             <td th:text="${voiture.getModeles()}"></td>
                <td th:text="${voiture.getTypeVehicules()}"></td>
             <td th:text="${voiture.getImmatVehicules}"></td>
-            
+            <image src=""></image>
 
             </tr>
 </table>
-
- 
     </body>
 </html>

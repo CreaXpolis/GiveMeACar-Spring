@@ -1,0 +1,32 @@
+.btnMenu{
+	display: block;
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	text-indent: -9999px;
+	padding: 20px 15px;
+}
+.btnMenu_open{
+	position: absolute;
+	width: 30px;
+	top: 0;
+	opacity: 0.5;
+	background-image: url(menu.png);
+}
+.btnMenu_close{
+	background-color: blue;
+	background-image: url(hamburguer.png);
+}
+.btnMenuCustomer{
+	display: block;
+	background-repeat:no-repeat ;
+	text-indent: -9999px;
+	background-position: 15px center;
+	padding: 20px 50px;
+
+}
+.btnMenu_openCustomer{
+	position: absolute;
+	top: 0;
+	background-image: url(customer.png);
+	right: 0;
+}

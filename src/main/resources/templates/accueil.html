@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="btnMenu.css" type="text/css">
+    <link rel="stylesheet" href="menu.css" type="text/css">
+    <link rel="stylesheet" href="imageDeFond.css" type="text/css">
+    <link rel="stylesheet" href="formulaire.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+
+    <title>index</title>
+</head>
+<body>
+    <header>
+              
+         <!--<div class="barreNav">--> 
+              <figure>
+                <img src="GiveMeACar.png" class="template0">
+              </figure>
+            <nav class = " wrap-menu">
+                <h1>Give&nbsp;Me<br>&emsp;A&nbsp;Car</h1>
+                 <p id="inscri">Inscription</p>
+                
+            <a href="#menu" class="btnMenu btnMenu_open">Menu</a>
+          
+            <ul id="menu" class="menu">
+                <li class="btnMenu btnMenu_close">sortir</li>
+                <li class="menu-item"><a href="" class="menu-item-action">Menu</a></li>
+                <li class="menu-item"><a href="" class="menu-item-action">Se connecter</a></li>
+                <li class="menu-item"><a href="" class="menu-item-action">Contact</a></li>
+            </ul>
+
+            </nav>
+             <a href="#menuCustomer" class="btnMenuCustomer btnMenu_openCustomer">customer</a>
+            
+            <form id="menuCustomer" class="menuCustomer">
+                <p>Inscrivez-vous</p>
+            <input type="text" name="nom" placeholder="Nom" class="field-inscri">
+            <input type="text" name="prenom" placeholder="Prénom" class="field-inscri"> 
+            <input type="email" name="email" placeholder="Email" class="field-inscri">
+            <input type="password" name="password" placeholder="Mot de Passe" class="field-inscri">
+            <input type="submit" name="button" placeholder="Valider" class="field-inscri" id="button1">
+            </form>
+
+            <h2 class="text0">Louez et restituez où vous voulez </h2>
+            <h2 class="text1">Des vehicules à votre disposition dans votre secteur</h2>
+          </header>
+          <section>
+            
+
+            <form class="formulaire" method="POST" action="#">
+                 <input type="text" class="field" name="marque" placeholder="Marque Voiture">
+                  <input type="text" class="field" name="modele" placeholder="Modele Voiture">
+                   <input type="text" class="field" id="dispo" name="disponibilite" placeholder="Disponibilite Voiture">
+                    <input type="text" class="field" id="prix" name="prix" placeholder="Prix Voiture">
+                     <input type="submit" class="chercher" id="button" value="Let's Go">
+
+            </form>
+          </section>
+    <br>
+    <br>
+
+    <!--<div class="bandeauCentral" style= "background-image: url(bandeau.png)">
+        <form>
+            <fieldset style= "background-image: ('bandeau.png')">
+                <legend>N'attendez plus pour reserver votre voiture </legend>
+
+                <section>
+                      <label for="Vehicules">
+                        <span>Type de voiture:</span>
+                      </label>
+                      <select id="card" name="usercard">
+                        <option value="cit">Citadine</option>
+                        <option value="ber">Berline</option>
+                        <option value="fam">Famille</option>
+                      </select>
+                    <p>
+                      <label for="lieux">
+                        <span>Ville de reservation :</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                      </label>
+                      <input type="text" id="lieux" name="Ville">
+                    </p>
+                    <p>
+                      <label for="date">
+                        <span>Date:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                      </label>
+                      <input type="text" id="date" name="expiration">
+                    </p>
+                </section>
+            </fieldset>
+        </form>
+
+    </div>
+    
+    <footer>
+        <div class="barreNav"> <nav>
+            <a href="#">Notre FAQ</a> 
+            <a href="#">Service Client</a> 
+            <a href="#">Ils nous soutiennent</a> 
+          </nav>
+        </div>
+        
+    </footer>-->
+    <script type="text/javascript" src ="btnMenu.js"></script>
+
+</body>
+</html>

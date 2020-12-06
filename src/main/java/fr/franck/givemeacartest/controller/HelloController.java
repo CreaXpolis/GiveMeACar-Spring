@@ -8,16 +8,13 @@ import fr.franck.givemeacartest.model.Stock;
 
 @Controller
 public class HelloController {
-
     Stock stockG = new Stock();
-
     @GetMapping("/")
-    public ModelAndView index() {
+    public ModelAndView accueil() {
         ModelAndView hello = new ModelAndView();
-        hello.setViewName("index");
+        hello.setViewName("accueil");
         return hello;
     }
-
     @GetMapping("/stock")
     public ModelAndView stock() {
         ModelAndView yo = new ModelAndView();
@@ -25,7 +22,6 @@ public class HelloController {
         yo.addObject("stock", new Stock());
         return yo;
     }
-
-
+   
 }
 

@@ -1,0 +1,61 @@
+.formulaire {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10%;
+	margin-left:10% ;
+	width: 50%;
+}
+.field {
+	display: flex;
+	padding: 12px;
+	margin-bottom: 15px;
+	width: 300px;
+	border: 2px solid;
+	border-color: #ffcf39;
+	border-radius: 5px;
+}
+#dispo {
+	width: 200px;
+}
+#prix{
+	width: 200px;
+}
+#button {
+	width: 100px;
+	height: 30px;
+	color: #FFFFFF;
+	background-color: #ffcf39;
+	font-weight: bolder;
+	border: 2px solid;
+	border-color: #ffcf39;
+	cursor: pointer;
+}
+
+/*Formulaire d'inscription du utilisateur*/
+
+#menuCustomer{
+	display: flex;
+	flex-direction: column;
+	width: 30%;	
+	margin-top: 10%;
+}
+.field-inscri{
+	display: flex;
+	padding: 12px;
+	margin-bottom: 15px;
+	width: 300px;
+	border: 2px solid;
+	border-color: #ffcf39;
+	border-radius: 5px;
+}
+#button1{
+	display: block;
+	width: 100px;
+	height: 50px;
+	color: #FFFFFF;
+	background-color: #ffcf39;
+	text-align: justify;
+	cursor: pointer;
+	text-align: center;
+	margin-left:100px;
+}
